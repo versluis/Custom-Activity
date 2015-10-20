@@ -25,9 +25,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)shareThis:(id)sender {
+- (IBAction)shareText:(id)sender {
     
-    // grab an item we want to share
+    // some text we want to share
     NSString *theMessage = @"This is a message we would like to share";
     NSArray *items = @[theMessage];
     
@@ -42,11 +42,28 @@
     
 }
 
+- (IBAction)shareImage:(id)sender {
+    
+    // an image we want to share
+    UIImage *image = [UIImage imageNamed:@"construction-hires"];
+    NSArray *items = @[image];
+    
+    // create an array of custom activities
+    NSArray *activities = @[self.customActivity];
+    
+    // configure an activity view controller
+    UIActivityViewController *controller = [[UIActivityViewController alloc]initWithActivityItems:items applicationActivities:activities];
+    
+    // and present it
+    [self presentViewController:controller animated:YES completion:nil];
+}
+
 - (MyActivity *)customActivity {
     
     if (!_customActivity) {
         _customActivity = [[MyActivity alloc]init];
         
+        // any setup for our activity can be done here
     }
     return _customActivity;
 }
