@@ -15,6 +15,7 @@
 		D2E90F0A1BD6B79200490462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E90F081BD6B79200490462 /* LaunchScreen.storyboard */; };
 		D2E90F151BD6B79200490462 /* Custom_ActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E90F141BD6B79200490462 /* Custom_ActivityTests.m */; };
 		D2E90F201BD6B79200490462 /* Custom_ActivityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E90F1F1BD6B79200490462 /* Custom_ActivityUITests.m */; };
+		D2E90F2F1BD6B7C200490462 /* MyActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E90F2E1BD6B7C200490462 /* MyActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D2E90F1B1BD6B79200490462 /* Custom ActivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom ActivityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E90F1F1BD6B79200490462 /* Custom_ActivityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_ActivityUITests.m; sourceTree = "<group>"; };
 		D2E90F211BD6B79200490462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E90F2D1BD6B7C200490462 /* MyActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyActivity.h; sourceTree = "<group>"; };
+		D2E90F2E1BD6B7C200490462 /* MyActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D2E90EFE1BD6B79200490462 /* AppDelegate.m */,
 				D2E90F001BD6B79200490462 /* ViewController.h */,
 				D2E90F011BD6B79200490462 /* ViewController.m */,
+				D2E90F2D1BD6B7C200490462 /* MyActivity.h */,
+				D2E90F2E1BD6B7C200490462 /* MyActivity.m */,
 				D2E90F031BD6B79200490462 /* Main.storyboard */,
 				D2E90F061BD6B79200490462 /* Assets.xcassets */,
 				D2E90F081BD6B79200490462 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				D2E90F021BD6B79200490462 /* ViewController.m in Sources */,
 				D2E90EFF1BD6B79200490462 /* AppDelegate.m in Sources */,
+				D2E90F2F1BD6B7C200490462 /* MyActivity.m in Sources */,
 				D2E90EFC1BD6B79200490462 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
